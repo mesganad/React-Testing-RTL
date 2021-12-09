@@ -39,7 +39,7 @@ describe('when everything is ok', () => {
   //getByRole()
   test('should select the input element by its role', () => {
     const node1=screen.getAllByRole('textbox');
-    expect(node1.length).toEqual(1);
+    expect(node1.length).toEqual(2);
   })
   test('should select a label element by its text', () => {
     screen.getByLabelText('Input:');

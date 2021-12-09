@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import { getUser, User } from './get-user';
 import CustomInput from './CustomInput';
+import Pokemon from './Pokemon';
 
 
 const App=()=> {
@@ -26,6 +27,8 @@ const App=()=> {
       Input:
     </CustomInput>
     <p>You typed: {text? text :'...'}</p>
+
+    <Pokemon />
   </div>
   
 }
